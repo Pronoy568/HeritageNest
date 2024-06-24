@@ -38,7 +38,7 @@ const Counter = () => {
   ];
 
   return (
-    <div className="mx-auto my-[53px] px-[112px] w-full max-w-[1216px]">
+    <div className="mx-auto my-[53px] px-[50px] md:px-[112px] w-full max-w-[1216px]">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[32px]">
         {counters.map((counter, index) => (
           <div
