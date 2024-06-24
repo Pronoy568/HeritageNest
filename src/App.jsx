@@ -1,10 +1,14 @@
+import { Outlet } from "react-router-dom";
 import "./App.css";
-import About from "./pages/About/About";
+import Navbar from "./component/shared/Navbar/Navbar";
+import Footer from "./component/shared/Footer/Footer";
 
 function App() {
   return (
     <>
-      <About />
+      <Navbar />
+      <Outlet />
+      <Footer />
     </>
   );
 }
