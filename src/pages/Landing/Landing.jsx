@@ -1,7 +1,9 @@
+import Banner from "./Banner";
+
 const Landing = () => {
   return (
     <div>
-      <h1>Landing</h1>
+      <Banner />
     </div>
   );
 };
