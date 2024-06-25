@@ -3,6 +3,7 @@ import App from "../App";
 import Landing from "../pages/Landing/Landing";
 import About from "../pages/About/About";
 import BuyScreen from "../pages/BuyScreen/BuyScreen";
+import PropertyDetails from "../pages/PropertyDetails/PropertyDetails";
 
 const routes = [
   {
@@ -20,6 +21,10 @@ const routes = [
       {
         path: "/buyScreen",
         element: <BuyScreen />,
+      },
+      {
+        path: "/propertyDetails",
+        element: <PropertyDetails />,
       },
     ],
   },

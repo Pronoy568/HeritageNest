@@ -1,4 +1,5 @@
 import Counter from "../../component/shared/Counter/Counter";
+import Testimonials from "../BuyScreen/Testimonials";
 import Banner from "./Banner";
 import MeetTheTeam from "./MeetTheTeam";
 import MissionStatement from "./MissionStatement";
@@ -14,6 +15,9 @@ const About = () => {
       <MissionStatement />
       <OurTeam />
       <MeetTheTeam />
+      <div className="mb-16">
+        <Testimonials />
+      </div>
     </div>
   );
 };

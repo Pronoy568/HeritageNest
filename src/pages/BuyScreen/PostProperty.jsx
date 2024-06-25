@@ -1,6 +1,6 @@
 const PostProperty = () => {
   return (
-    <div className="w-full bg-[#FDF0E7] py-[48px] px-[20px] md:px-[112px]">
+    <div className="w-full bg-[#FDF0E7] py-[48px] px-[20px] md:px-[112px] mt-10">
       <div className="max-w-[1440px] mx-auto flex flex-col md:flex-row items-center justify-between gap-[64px]">
         {/* Text Section */}
         <div className="w-full md:w-[784px]">

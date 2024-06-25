@@ -70,7 +70,7 @@ const Property = () => {
                 className={`absolute top-[150px] left-[20px] sm:top-[230px] sm:left-[360px]  md:top-[230px] md:left-[360px]  lg:top-[150px] lg:left-[320px] xl:left-[422px] xl:top-[228px] xl:w-[72px] h-[72px] ${
                   property.id === 2
                     ? `
-                    sm:left-[35px] sm:top-[-20px] md:left-[35px] md:top-[100px] lg:left-[5px] lg:top-[100px] xl:left-[70px] xl:top-[-25px]
+                    sm:left-[35px] sm:top-[-20px] md:left-[35px] md:top-[100px] lg:left-[5px] lg:top-[100px] xl:left-[70px] xl:top-[-23px]
                     `
                     : ""
                 }`}
