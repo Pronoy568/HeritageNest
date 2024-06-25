@@ -6,7 +6,7 @@ const OurTeam = () => {
   const teamImages = [team1, team2, team3];
 
   return (
-    <div className="mx-auto mt-[80px] mb-[65px] px-[50px] md:px-[112px] w-full max-w-[1216px]">
+    <div className="mx-auto mt-[80px] mb-[65px] px-[50px] md:px-[112px] w-full">
       {/* Title Section */}
       <div className="flex items-center space-x-[16px] mb-[16px]">
         <div className="w-[51px] border-t-[4px] border-[#EE6611]"></div>

@@ -3,7 +3,7 @@ import circle from "../../assets/About/circle.png";
 
 const OurStory = () => {
   return (
-    <div className="mx-auto w-full max-w-[1216px] mt-[80px] mb-[290px] md:mb-[185px] px-[50px] md:px-[112px]">
+    <div className="w-full mt-[80px] mb-[290px] md:mb-[185px] px-[50px] md:px-[112px]">
       <div className="relative">
         {/* Main Image with Gradient Overlay */}
         <div className="relative w-full h-[455px] lg:w-[904px]">

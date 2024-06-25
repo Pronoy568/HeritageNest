@@ -2,7 +2,7 @@ import meetTeam from "../../assets/About/meetTeam.png";
 
 const MeetTheTeam = () => {
   return (
-    <div className="mx-auto px-[50px] md:px-[112px] w-full max-w-[1214px] mb-[64px] flex flex-col lg:flex-row items-start lg:items-center justify-between gap-[32px]">
+    <div className="mx-auto px-[50px] md:px-[112px] w-full mb-[64px] flex flex-col lg:flex-row items-start lg:items-center justify-between gap-[32px]">
       {/* Left Part */}
       <div className="w-full lg:w-2/3">
         <div className="flex items-center space-x-[16px] mb-[16px]">
