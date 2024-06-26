@@ -24,42 +24,42 @@ import kidsPlay from "../../assets/Details/Amenities/kidsPlay.png";
 import indoor from "../../assets/Details/Amenities/indoor.png";
 
 const amenitiesList = [
-  { name: "Power Back Up", icon: power },
-  { name: "Lift", icon: lift },
-  { name: "Club House", icon: club },
-  { name: "Gymnasium", icon: gymnasium },
-  { name: "Park", icon: park },
-  { name: "Reserved Parking", icon: reservedParking },
-  { name: "Security", icon: security },
-  { name: "Water Storage", icon: water },
-  { name: "Private Terrace/Garden", icon: privateGarden },
-  { name: "Vaastu Compliant", icon: vaastuCompliant },
-  { name: "Service/Goods Lift", icon: ServiceGoodsLift },
-  { name: "Visitor Parking", icon: VisitorParking },
-  { name: "Intercom Facility", icon: intercom },
-  { name: "Maintenance Staff", icon: maintenance },
-  { name: "Waste Disposal", icon: waste },
-  { name: "Laundry Service", icon: laundry },
-  { name: "Internet/Wi-Fi Connectivity", icon: internet },
-  { name: "DTH Television Facility", icon: dthTelevision },
-  { name: "Piped Gas", icon: pipegas },
-  { name: "Jogging and Strolling Track", icon: jogging },
-  { name: "Outdoor Tennis Courts", icon: outdoor },
-  { name: "Early Learning Centre", icon: earlyLearning },
-  { name: "Kids Play Area", icon: kidsPlay },
-  { name: "Indoor Squash & Badminton Courts", icon: indoor },
+  { name: "Power Back Up", img: power },
+  { name: "Lift", img: lift },
+  { name: "Club House", img: club },
+  { name: "Gymnasium", img: gymnasium },
+  { name: "Park", img: park },
+  { name: "Reserved Parking", img: reservedParking },
+  { name: "Security", img: security },
+  { name: "Water Storage", img: water },
+  { name: "Private Terrace/Garden", img: privateGarden },
+  { name: "Vaastu Compliant", img: vaastuCompliant },
+  { name: "Service/Goods Lift", img: ServiceGoodsLift },
+  { name: "Visitor Parking", img: VisitorParking },
+  { name: "Intercom Facility", img: intercom },
+  { name: "Maintenance Staff", img: maintenance },
+  { name: "Waste Disposal", img: waste },
+  { name: "Laundry Service", img: laundry },
+  { name: "Internet/Wi-Fi Connectivity", img: internet },
+  { name: "DTH Television Facility", img: dthTelevision },
+  { name: "Piped Gas", img: pipegas },
+  { name: "Jogging and Strolling Track", img: jogging },
+  { name: "Outdoor Tennis Courts", img: outdoor },
+  { name: "Early Learning Centre", img: earlyLearning },
+  { name: "Kids Play Area", img: kidsPlay },
+  { name: "Indoor Squash & Badminton Courts", img: indoor },
 ];
 
 const Amenities = () => {
   return (
     <div className="mx-auto px-[50px] md:px-[112px] mt-[54px]">
-      <div className="p-6 bg-[#F9FAFB] rounded border border-[#F9FAFB] shadow-lg">
+      <div className="p-6 bg-[#F9FAFB] rounded border border-[#E5E7EB]">
         <h2 className="text-2xl font-semibold mb-8">Amenities</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-6">
           {amenitiesList.map((amenity, index) => (
             <div key={index} className="flex items-center p-4 rounded ">
               <div>
-                <img src={amenity.icon} alt="" className="size-10" />
+                <img src={amenity.img} alt="" className="size-10" />
               </div>
               <span className="text-[#101010]">{amenity.name}</span>
             </div>
