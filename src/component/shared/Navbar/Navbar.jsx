@@ -18,9 +18,7 @@ const Navbar = () => {
 
       <div className="flex flex-col md:flex-row items-center space-y-[8px] md:space-y-0 space-x-0 md:space-x-[32px] w-full md:w-[549.36px] justify-end">
         <Link to="/about">About</Link>
-        <a href="#sign-in" className="text-black">
-          Sign In
-        </a>
+        <Link to="/signIn">Sign In</Link>
       </div>
     </nav>
   );

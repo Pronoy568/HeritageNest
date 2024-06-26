@@ -4,6 +4,7 @@ import Landing from "../pages/Landing/Landing";
 import About from "../pages/About/About";
 import BuyScreen from "../pages/BuyScreen/BuyScreen";
 import PropertyDetails from "../pages/PropertyDetails/PropertyDetails";
+import SignIn from "../pages/SignIn/SignIn";
 
 const routes = [
   {
@@ -25,6 +26,10 @@ const routes = [
       {
         path: "/propertyDetails",
         element: <PropertyDetails />,
+      },
+      {
+        path: "/signIn",
+        element: <SignIn />,
       },
     ],
   },
